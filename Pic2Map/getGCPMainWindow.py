@@ -27,7 +27,7 @@ from qgis.gui import *
 from ui_disprast import Ui_disprast
 from iconsdialog import icons_dialog
 from posedialog import Pose_dialog
-import Image
+from PIL import Image
 import ImageQt
 import ImageEnhance
 import GCPs
