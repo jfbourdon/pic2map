@@ -28,8 +28,8 @@ from ui_disprast import Ui_disprast
 from iconsdialog import icons_dialog
 from posedialog import Pose_dialog
 from PIL import Image
-import ImageQt
-import ImageEnhance
+from PIL.ImageQt import ImageQt
+from PIL import ImageEnhance
 import GCPs
 from numpy import arctan, arctan2, arcsin, sqrt, pi, cos, sin, array, zeros, dot, linalg, abs, asarray
 from D3View import D3_view
