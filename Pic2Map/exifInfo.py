@@ -1,4 +1,3 @@
-
 """
 /***************************************************************************
  *                                                                         *
@@ -13,7 +12,7 @@
 
 from PyQt4.QtGui import *
 from PyQt4.QtCore import *
-import Image
+from PIL import Image
 from PIL.ExifTags import TAGS
 from ui_exif2 import Ui_Exif2
 from qgis.core import *
