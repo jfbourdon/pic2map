@@ -36,7 +36,7 @@ from osgeo import gdal, osr, ogr
 import os
 #import ogr
 
-import Image
+from PIL import Image
 
 from scipy import misc
 from scipy.spatial import KDTree
